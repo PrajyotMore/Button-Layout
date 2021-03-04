@@ -1,0 +1,41 @@
+:root {
+    --clr-white: #fff;
+    --clr-black: #000000;
+    --clr-grey: #2d2c31;
+}
+
+
+.container {
+    margin: 150px 100px;
+    text-align: center;
+  }
+  .container h2 {
+    width: 70%;
+    margin-left: 200px;
+    background-color: var(--clr-grey);
+    color: var(--clr-black);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+  }
+  .color {
+    color: var(--clr-black);
+  }
+  .btn-hero {
+    font-family: 'RocknRoll One', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    letter-spacing: 5px;
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid var(--clr-black);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
+  .btn-hero:hover {
+    color: var(--clr-white);
+    background: var(--clr-black);
+  }
